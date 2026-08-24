@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/**/*.py": {
+      "excludeFiles": "{tests/**,data/**,src/**,dashboard.py,README.md,Dockerfile,.devcontainer/**,.github/**}"
+    }
+  }
+}
