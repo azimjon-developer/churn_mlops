@@ -1,0 +1,5 @@
+-r requirements.txt
+mlflow
+streamlit
+requests
+pytest
